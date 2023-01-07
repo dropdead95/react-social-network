@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  padding: 1rem 0.5rem;
+  border: 0.1rem solid #dce1e6;
+  background-color: #ffffff;
+}
+.selectedPage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #1a71f4;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.notSelectedPage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+}
+
+.arrow {
+  cursor: pointer;
+  font-size: 2rem;
+  color: #1a71f4;
+}
+.wrapper {
+  position: relative;
+  cursor: pointer;
+  padding: 1.5rem;
+  text-align: center;
+  border: 0.1rem solid #1a71f4;
+}

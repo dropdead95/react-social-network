@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+.title {
+  color: #1a71f4;
+}
+.topSection {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  border-radius: 1rem 1rem 0 0;
+  background-color: #ffffff;
+  gap: 2rem;
+  border: 0.1rem solid #dce1e6;
+}
+
+.searchWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.searchInput {
+  width: 100%;
+  font-size: 0.9rem;
+}
+.users {
+  padding: 1.5rem;
+  border: 0.1rem solid #dce1e6;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+.clearButton {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.clearIcon {
+  font-size: 1.3rem;
+  opacity: 0.5;
+}
+
+.clearIcon:hover {
+  opacity: 1;
+}

@@ -1,0 +1,96 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 0.1rem solid lightgray;
+  padding: 0.2rem;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.Logo {
+  display: inline-block;
+  margin-right: 5rem;
+}
+
+.search {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 2rem;
+  border-radius: 0.4rem;
+  padding: 0.3rem;
+  font-size: 1rem;
+  transition: all 300ms;
+}
+.search:hover {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.search:focus {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.authLogo {
+  margin-left: 25px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #1a71f4;
+  border-radius: 50%;
+}
+.authLogoIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.userName {
+  margin-left: auto;
+}
+.login {
+  padding: 0.5rem 2rem;
+  background-color: transparent;
+  border: 2px solid #1a71f4;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.login:hover {
+  background-color: #1a71f4;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+.login:active {
+  color: black;
+}
+.btnWrapper {
+  margin-left: auto;
+}
+.btnLogout {
+  padding: 0.5rem 2rem;
+  background-color: transparent;
+  border: 2px solid #1a71f4;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 300ms;
+  margin-left: 1rem;
+}
+
+.btnLogout:hover {
+  background-color: #1a71f4;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.btnLogout:active {
+  color: black;
+}

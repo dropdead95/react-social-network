@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  background-color: #ffffff;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: all 300ms;
+  margin-bottom: 0.5rem;
+}
+
+.wrapper:hover {
+  background-color: #e5e7eb;
+}
+
+.avatar {
+  width: 3rem;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.item {
+  width: 3rem;
+}
